@@ -12,8 +12,6 @@ Rujuta Vaidya
  - This code is a simple implementation template of a working 5-Stage APEX Out-of-order Pipeline
  - Implementation is in `C` language
  - Stages: Fetch -> Decode/Rename1 -> Decode/Dispatch -> Issue Queue -> FU units -> D-Cache -> Commit
- - You can read, modify and build upon given code-base to add other features as required in project description
- - You are also free to write your own implementation from scratch
  - All the stages have latency of one cycle expect MUL FU which has a latency of 4 cycles
  - Logic to check data dependencies has been included
  - Includes logic for `ADD`, `ADDL`, `SUB`, `SUBL`, `MUL`, `DIV`, `LOAD`, `STORE`, `LDR`,  `STR`, `JUMP`, `CMP`, `NOP` and`HALT` instructions
